@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growpital | Wallet</title>
+    <!-- linking font and font awesome for icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- linking css files -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <div>
+          <li id="brand-logo"><a href="#">Growpital</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact US</a></li>
+        </div>
+        <div>
+          <li>
+            <i class="fa-solid fa-bell color-orange"></i>
+          </li>
+          <li>
+            <i style="padding: 0" class="fa-solid fa-user color-orange"></i>
+          </li>
+        </div>
+      </ul>
+    </nav>
+<!-- main -->
+    <main>
+      <section>
+        <!-- header -->
+        <header>
+          <div class="icon-adjust">
+            <p class="plain-text">Money added to wallet</p>
+            <i class="fa-solid fa-money-check color-orange"></i>
+          </div>
+          <p class="plain-text">from bank account</p>
+          <p class="bold-text"></p>
+          <!-- Transaction amount -->
+          <p class="plain-text"></p>
+          <!-- Transaction Date  -->
+          <div class="bold-text" id="transaction">
+            &nbsp;<i class="fa-regular fa-circle-check color-green"></i>&nbsp;
+            Transaction Complete!
+            <p class="plain-text">
+              &nbsp;&nbsp;&nbsp;Tap to view this transaction
+            </p>
+          </div>
+        </header>
+        <br />
+        <!-- main containing sender's and receiver's details -->
+        <main>
+          <div class="icon-adjust">
+            <p style="color: #febf32">From</p>
+            <i class="fa-solid fa-user color-orange"></i>
+          </div>
+          <p class="bold-text sender-details"></p>
+          <!-- Sender's Name  -->
+          <p class="italic-text sender-details"></p>
+          <!--Bank and IFSC code -->
+          <p class="italic-text sender-details"></p>
+          <!-- Account number  -->
+          <p class="plain-text sender-details"></p>
+          <!-- Transaction Date  -->
+          <br />
+          <div class="icon-adjust">
+            <p style="color: #febf32">To</p>
+            <i class="fa-solid fa-money-bill color-green"></i>
+          </div>
+          <p class="bold-text receiver-details"></p>
+          <!-- receiver's Name  -->
+          <p class="italic-text receiver-details"></p>
+          <!-- receiver's wallet  -->
+          <p class="italic-text receiver-details"></p>
+          <!-- receiver's Reference no.  -->
+          <p class="plain-text receiver-details"></p>
+          <!-- Transaction Date  -->
+          <br />
+
+          <p class="plain-text transactionDetails"></p>
+          <!-- Payment method  -->
+          <div class="icon-adjust" style="justify-content: normal">
+            <p class="plain-text transactionDetails"></p>
+            <!-- Transaction ID-->
+            &nbsp; &nbsp;<i class="fa-solid fa-file color-orange"></i>
+          </div>
+        </main>
+        <br />
+        <!-- footer -->
+        <footer>
+          <button class="btn">Help</button>
+          <button class="btn" style="background: #242632; color: white">
+            Share
+          </button>
+        </footer>
+        <br />
+      </section>
+    </main>
+  </body>
+  <!-- linking javascript -->
+  <script src="script.js"></script>
+</html>
